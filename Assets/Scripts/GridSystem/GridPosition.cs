@@ -13,7 +13,7 @@ public struct GridPosition : IEquatable<GridPosition>
 
     public override string ToString()
     {
-        return "(x: " + x + "; z: " + z + ")";
+        return "x: " + x + "; z: " + z;
     }
 
     public static bool operator ==(GridPosition a, GridPosition b)
